@@ -1,0 +1,47 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --light-bg: #f0f0f0;
+    --dark-grey: #404040;
+}
+
+.btn2{
+    padding: 12px 29px;
+    border-radius: 10px;
+    border: none;
+    background-color:#606060;
+    color: white;
+}
+.btn{
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+}
+.card{
+    height:250px;
+    width: 300px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height:200px;
+    color: white;
+    background-color: #da1e5d;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#container2{
+   display: flex;
+   align-items: center; 
+}
+.container2forcard45{
+    display: flex;
+}

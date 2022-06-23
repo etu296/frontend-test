@@ -1,0 +1,93 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --light-bg: #f0f0f0;
+    --dark-grey: #404040;
+}
+
+.btn3{
+    padding: 12px 29px;
+    border-radius: 10px;
+    border: none;
+    background-color:#606060;
+    color: white;
+}
+.btn{
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+}
+
+
+#card1{
+    height:90px;
+    width: 800px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height: 90px;
+    color: white;
+    background-color: #da1e5d;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+#card2{
+    height:290px;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height: 250px;
+    color: white;
+    background-color: #da1e5d;
+    border-radius: 10px;
+    margin: 10px;
+}
+#card3{
+    height:290px;
+    width: 460px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height: 250px;
+    color: white;
+    background-color: #da1e5d;
+    border-radius: 10px;
+    margin: 10px;
+}
+#card4{
+    height:290px;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height: 250px;
+    color: white;
+    background-color: #da1e5d;
+    border-radius: 10px;
+    margin: 10px;
+}
+#card5{
+    height:90px;
+    width: 800px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height: 90px;
+    color: white;
+    background-color: #da1e5d;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#container2{
+    display: flex;
+   
+}
+
+
+

@@ -7,41 +7,87 @@ body {
     --dark-grey: #404040;
 }
 
-.btn2{
-    padding: 12px 29px;
-    border-radius: 10px;
-    border: none;
-    background-color:#606060;
-    color: white;
-}
-.btn{
-    padding: 12px 25px;
-    border-radius: 10px;
-    border: none;
-    margin: 10px;
-}
-
-#container{
+.header{
     display: flex;
+    justify-content: center;
     align-items: center;
 }
-.card{
-    height:250px;
-    width: 300px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 13px;
-    line-height:200px;
-    color: white;
-    background-color: #da1e5d;
-    border-radius: 10px;
-    margin: 10px;
+.header h2{
+    animation: text 3s 1;
 }
-
-#container2{
-   display: flex;
-   align-items: center; 
-}
-.container2forcard45{
+.slider{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 600px;
+    height: 400px;
+    background: url(img/define.jpg);
+    background-size: cover;
+    animation: slide 20s infinite;
+}
+.container{
+    display:inline;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    float: right;
+    margin-top: -27%;
+    margin-right: 15%;
+    animation: container 10s infinite;
+}
+.container p{
+    margin: 30px;
+    animation: newtext 20s infinite ;
+}
+@keyframes text{
+    0%{
+        color: black;
+    }
+    30%{
+        letter-spacing: 5px;
+    }
+    85%{
+        letter-spacing: 5px;
+    }
+}
+@keyframes slide{
+    25%{
+        background:url(img/design.jpg) ;
+    }
+    50%{
+        background:url(img/implement.jpg) ;
+    }
+    75%{
+        background: url(img/maintain.jpg);
+    }
+    100%{
+        background:url(img/plan.jpg) ;
+    }
+    125%{
+        background:url(img/test.jpg) ;
+    }
+}
+@keyframes container{
+    
+}
+@keyframes newtext{
+    25%{
+        letter-spacing: 5px;
+        
+    }
+    50%{
+        letter-spacing: 5px;
+    }
+    75%{
+        letter-spacing: 5px;
+    }
+    100%{
+        letter-spacing: 5px;
+    }
+    125%{
+        letter-spacing: 5px;
+    }
 }
